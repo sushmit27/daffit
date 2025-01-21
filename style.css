@@ -1,0 +1,155 @@
+/* General Styles */
+body{
+  background-color: whitesmoke;
+}
+.topbar {
+  background-color: olive; /* Light blue color, adjust as needed */
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
+.container{
+  padding: 0%;
+}
+
+.logo-img {
+  /* width: 100px; Increase this value for a larger logo */
+  /* height: auto; Maintain aspect ratio */
+}
+.navbar-brand{
+    display: flex; /* Ensures proper alignment */
+    align-items: center; /* Vertically center the logo */
+    padding: 0; /* No extra padding */
+    margin: 0; /* No extra margin */
+    height: 80px;
+    padding-left: 0; /* Remove any padding on the left */
+    margin-left: 0;  /* Remove any margin on the left */
+}
+.navbar {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+/* Center the company name */
+.navbar-text {
+  flex-grow: 1; /* Ensures that the text takes the available space */
+  text-align: center;
+  font-size: 2rem; /* You can adjust the font size */
+}
+/* Adjust spacing between navbar items */
+.navbar-nav {
+  margin-left: auto; /* Push navbar items to the right */
+}
+/* Display dropdown menu on hover */
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+/* Styling the dropdown menu */
+.dropdown-menu {
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  padding: 0;
+}
+
+/* Styling the dropdown items */
+.dropdown-item {
+  padding: 0.5rem 1rem;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-item:hover {
+  background-color: #f8f9fa;
+  color: #0056b3;
+}
+
+/* Remove the arrow from the dropdown toggle */
+.nav-item.dropdown > .nav-link {
+  padding-right: 0;
+}
+
+/* Prevent spacing for dropdown */
+.nav-item.dropdown > .nav-link::after {
+  content: none !important;
+}
+.carousel-inner img {
+  height: 500px;
+  object-fit: cover;
+}
+.section-title {
+  font-size: 2rem;
+  margin: 2rem 0 1rem;
+  text-align: center;
+}
+
+
+.about-us{
+  position:relative;
+  /* padding:10%; */
+  /*background-color: aqua;*/
+  height: 638px;
+  
+}
+.about-us1{
+  position: absolute;
+  display: inline-block;
+  bottom: 0px;
+  top: 0px;
+  right: 50%;
+  left: 0px;
+  /* background-color: green; */
+}
+/* .p.about-us1{
+  text-align: right;
+  white-space: normal;
+  word-wrap: break-word;
+} */
+.about-us2{
+  position: absolute;
+  display: inline-block;
+  bottom: 0px;
+  top: 0px;
+  right: 0%;
+  left: 55%;
+  /* background-color: blue; */
+}
+.intro-img1{
+  position: absolute;
+  bottom: 0px;
+  top: 0px;
+  right: 100%;
+  left: 10%;
+}
+.intro-img2{
+  position: absolute;
+  /* bottom: 0px; */
+  top: 215px;
+  left: 50%;
+  padding: 30px;
+  background-color: white;
+  /* border-color: rebeccapurple; */
+  /* width:220px; 
+  height: 240px; */
+  text-align: center;
+
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.product-card img {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+footer {
+  background: #f8f9fa;
+  padding: 1rem;
+  text-align: center;
+}
+
